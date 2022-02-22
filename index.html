@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <!-- my custom styles -->
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+
+    <title>Bootstrap Responsive Design!</title>
+  </head>
+  <body>
+    <!-- top bar fixed -->
+    <div class="topbar fixed-top bg-white border-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-7">
+            <ul class="list-group list-group-horizontal">
+              <li class="list-group-item border-0">
+                <i class="bi bi-geo-alt"></i>
+                <a class="text-decoration-none text-secondary" href="#"
+                  >Peterborough, UK</a
+                >
+              </li>
+              <li class="list-group-item border-0">
+                <i class="bi bi-envelope"></i>
+                <a class="text-decoration-none text-secondary" href="#"
+                  >hello@services.com</a
+                >
+              </li>
+              <li class="list-group-item border-0">
+                <i class="bi bi-telephone"></i>
+                <a class="text-decoration-none text-secondary" href="#"
+                  >+44 7837 383 484</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-5">
+            <div class="input-group w-content h-100 justify-content-end">
+              <input type="text" placeholder="Username" class="form-control" />
+              <input type="text" placeholder="Password" class="form-control" />
+              <button type="submit" class="bg-white submit">
+                <i class="bi bi-chevron-right"></i>
+              </button>
+              <div class="menu-icon">
+                <i class="bi bi-list"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- header -->
+    <header class="mb-5">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div
+            class="col-12 col-md-2 p-4 bg-white text-center logo-div d-flex justify-content-center"
+          >
+            <img src="./assets/images/logo.png" alt="logo" class="img-fluid" />
+          </div>
+
+          <div
+            class="col-12 col-md-9 bg-white d-flex justify-content-streatch p-0"
+          >
+            <ul class="navbar-nav flex-row h-100 w-100">
+              <li class="nav-item border">
+                <i class="text-secondary bi bi-house-door"></i>
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item border">
+                <i class="text-secondary bi bi-gear"></i>
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item border">
+                <i class="text-secondary bi bi-pencil"></i>
+                <a class="nav-link" href="#">Examples</a>
+              </li>
+              <li class="nav-item border">
+                <i class="text-secondary bi bi-lightbulb"></i>
+                <a class="nav-link" href="#">Pages</a>
+              </li>
+              <li class="nav-item border">
+                <i class="text-secondary bi bi-translate"></i>
+                <a class="nav-link" href="#">Languages</a>
+              </li>
+              <li class="nav-item border">
+                <i class="text-secondary bi bi-chat"></i>
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- banner content -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-12 col-lg-8 p-0">
+          <img src="./assets/images/header2.jpg" alt="image" class="w-100" />
+        </div>
+        <div class="col card px-5 py-4">
+          <h3 class="fs-1 py-2 fw-normal">STARTING YOUR OWN BUSINESS</h3>
+          <p class="py-3 text-secondary">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab debitis
+            maxime natus. Ipsam consequuntur vero, sit adipisci tempora
+            molestias ad maxime quod.
+          </p>
+          <div class="d-flex justify-content-end">
+            <a class="btn btn-lg btn-primary px-5 rounded-0 fw-light" href="#"
+              >read more</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- services -->
+    <div class="container services my-5">
+      <div class="row">
+        <div class="d-flex my-2 m-sm-0 col-md-4">
+          <div class="card text-center text-white bg-primary">
+            <div class="card-body p-4">
+              <h3 class="card-title fw-light">TIME MACHINE</h3>
+              <i class="bi bi-alarm"></i>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex my-2 m-sm-0 col-md-4">
+          <div class="card text-center text-white bg-success">
+            <div class="card-body p-4">
+              <h3 class="card-title fw-light">ANALYTICS</h3>
+              <i class="bi bi-alarm"></i>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex my-2 m-sm-0 col-md-4">
+          <div class="card text-center text-white bg-danger">
+            <div class="card-body p-4">
+              <h3 class="card-title fw-light">MACHINE SERVICE</h3>
+              <i class="bi bi-alarm"></i>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- projects -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-12 card projects p-4">
+          <h3>LATEST PROJECTS</h3>
+          <div class="row">
+            <div class="col-md-6 my-2 col-lg-3">
+              <div class="card text-white">
+                <img src="./assets/images/project1.jpg" class="card-img" />
+
+                <div class="overlay-main">
+                  <div class="tag bg-primary text-center">Project 1</div>
+                  <div class="overlay p-4">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <a href="" class="btn btn-primary">
+                      <i class="bi bi-chevron-double-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 my-2 col-lg-3">
+              <div class="card text-white">
+                <img src="./assets/images/project2.jpg" class="card-img" />
+
+                <div class="overlay-main">
+                  <div class="tag bg-primary text-center">Project 2</div>
+                  <div class="overlay p-4">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <a href="" class="btn btn-primary">
+                      <i class="bi bi-chevron-double-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 my-2 col-lg-3">
+              <div class="card text-white">
+                <img src="./assets/images/project3.jpg" class="card-img" />
+
+                <div class="overlay-main">
+                  <div class="tag bg-primary text-center">Project 3</div>
+                  <div class="overlay p-4">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <a href="" class="btn btn-primary">
+                      <i class="bi bi-chevron-double-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 my-2 col-lg-3">
+              <div class="card text-white">
+                <img src="./assets/images/project4.jpg" class="card-img" />
+
+                <div class="overlay-main">
+                  <div class="tag bg-primary text-center">Project 4</div>
+                  <div class="overlay p-4">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <a href="" class="btn btn-primary">
+                      <i class="bi bi-chevron-double-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about -->
+    <div class="container about my-5">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card">
+            <div class="row">
+              <div class="d-md-none d-lg-block col-md-5">
+                <img src="./assets/images/custom1.jpg" class="w-100" alt="" />
+              </div>
+              <div class="col-lg-7 p-5">
+                <h3 class="text-primary fs-4">JUST FEW WORDS</h3>
+                <p class="text-secondary my-3">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore.
+                </p>
+                <ul class="p-0 mb-4 text-secondary">
+                  <li>
+                    <i class="bi bi-arrow-right-circle text-primary fs-5"></i>Ut
+                    enim ad minim veniam, quis nostrud
+                  </li>
+                  <li>
+                    <i class="bi bi-arrow-right-circle text-primary fs-5"></i
+                    >Exercitation ullamco laboris nisi
+                  </li>
+                  <li>
+                    <i class="bi bi-arrow-right-circle text-primary fs-5"></i>Ut
+                    aliquip ex ea commodo consequat.
+                  </li>
+                  <li>
+                    <i class="bi bi-arrow-right-circle text-primary fs-5"></i
+                    >Duis aute irure dolor in reprehenderit
+                  </li>
+                </ul>
+                <div class="d-flex justify-content-end">
+                  <a
+                    class="btn btn-lg btn-primary px-5 rounded-0 fw-light"
+                    href="#"
+                    >read more</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center pb-4">
+            <img src="./assets/images/testimonials.png" alt="background" />
+            <div class="client-profile mx-auto">
+              <img
+                class="rounded-circle w-100"
+                src="./assets/images/testimonials1.png"
+              />
+              <h5>EMMA THOMSON</h5>
+              <p class="text-secondary">Happy Customer</p>
+              <p class="text-secondary">
+                “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore aliqua.”
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row py-5 text-secondary">
+          <div class="col-12 mt-5 mt-md-2 col-md-6 col-xl-3">
+            <h4 class="mb-lg-4">POPULAR ARTICLES</h4>
+            <ul class="list">
+              <li>
+                <a href=""> <i class="bi bi-chevron-right"></i>Subpage </a>
+              </li>
+              <li>
+                <a href=""> <i class="bi bi-chevron-right"></i>Error 404 </a>
+              </li>
+              <li>
+                <a href=""> <i class="bi bi-chevron-right"></i>Examples </a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-chevron-right"></i> Typography </a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="bi bi-chevron-right"></i> All templates
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 mt-5 mt-md-2 col-md-6 col-xl-3">
+            <h4 class="mb-lg-4">TAGS</h4>
+            <div class="pr-5">
+              <span class="badge m-1 fs-6 fw-normal bg-primary rounded-0 px-4"
+                >Lorem
+              </span>
+              <span class="badge m-1 fs-6 fw-normal bg-primary rounded-0 px-4"
+                >amet</span
+              >
+              <span class="badge m-1 fs-6 fw-normal bg-primary rounded-0 px-4"
+                >loreipsumm</span
+              >
+              <span class="badge m-1 fs-6 fw-normal bg-primary rounded-0 px-4"
+                >sit</span
+              >
+              <span class="badge m-1 fs-6 fw-normal bg-primary rounded-0 px-4"
+                >dolor xys</span
+              >
+              <span class="badge m-1 fs-6 fw-normal bg-primary rounded-0 px-4"
+                >lorem</span
+              >
+            </div>
+          </div>
+          <div class="col-12 mt-5 mt-md-2 col-md-6 col-xl-3">
+            <h4 class="mb-lg-4">LATEST NEWS</h4>
+            <div class="">
+              <a href="#" class="text-decoration-none"> Lorem Ipsum </a>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+              <a href="#" class="text-decoration-none"> Praesent Vehicula </a>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptates soluta nihil
+              </p>
+            </div>
+          </div>
+          <div class="col-12 mt-5 mt-md-2 col-md-6 col-xl-3">
+            <h4 class="mb-lg-4">STAY CONNECTED</h4>
+            <div class="socials d-flex flex-wrap">
+              <a class="facebook" href="#"><i class="bi bi-facebook"></i></a>
+              <a class="googleplus" href="#"><i class="bi bi-google"></i></a>
+              <a class="twitter" href="#"><i class="bi bi-twitter"></i></a>
+              <a class="linkedin" href="#"><i class="bi bi-linkedin"></i></a>
+              <a class="skype" href="#"><i class="bi bi-skype"></i></a>
+              <a class="vimeo" href="#"><i class="bi bi-film"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container border-top border-3">
+        <div class="row p-3">
+          <div class="col-12 text-center">
+            <span>All Rights Reserved.</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--  Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

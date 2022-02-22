@@ -1,0 +1,155 @@
+body {
+  background-color: #f3f3f3;
+}
+
+.topbar a {
+  font-size: 12px;
+}
+
+.topbar input {
+  max-width: 200px;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-radius: 0;
+}
+
+.topbar button,
+.topbar .menu-icon {
+  border: 1px solid #ced4da;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-radius: 0;
+  min-width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* header menu */
+
+header {
+  margin-top: 70px;
+}
+
+header .logo-div {
+  min-width: 21%;
+}
+
+header .nav-item {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header .nav-item > i {
+  font-size: 2rem;
+}
+header .nav-item > a {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* services */
+.services i {
+  font-size: 5rem;
+}
+.services p {
+  color: #ced4da;
+}
+.projects .overlay-main {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+}
+.projects .overlay {
+  position: absolute;
+  background: rgba(63, 63, 62, 0.8);
+  bottom: 0;
+}
+.projects a.btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 0;
+}
+
+.projects .tag {
+  width: 50%;
+  padding: 6px 10px;
+}
+
+/* client */
+.client-profile {
+  margin-top: -50px;
+  max-width: 80%;
+}
+
+.about li i {
+  margin-right: 20px;
+}
+.about ul {
+  list-style: none;
+}
+
+/* footer */
+
+footer .list {
+  list-style: none;
+  padding: 0;
+}
+footer .list i {
+  margin-right: 10px;
+}
+footer .list a {
+  text-decoration: none;
+}
+footer {
+  background-color: #e7e7e7;
+}
+
+footer .socials a {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.facebook,
+.vimeo {
+  background-color: #204385;
+}
+.googleplus {
+  background-color: #d3492c;
+}
+.linkedin,
+.skype,
+.twitter {
+  background-color: #1fc4ff;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 1000px) {
+  .topbar a,
+  .topbar input,
+  .topbar i {
+    font-size: 10px;
+  }
+
+  .topbar ul li {
+    padding: 0 5px;
+    text-align: center;
+  }
+
+  header .nav-item > a {
+    font-size: 0.5rem;
+  }
+}
